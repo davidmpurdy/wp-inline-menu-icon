@@ -24,7 +24,98 @@
             "max_width": "",
             "max_height": "",
             "max_size": "",
-            "mime_types": ""
+            "mime_types": "svg"
+        },
+        {
+            "key": "field_61d134b1d2310",
+            "label": "",
+            "name": "icon_height",
+            "type": "number",
+            "instructions": "CSS icon height",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61d129a6d103b",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "1.5",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 0,
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_61d1352cd2311",
+            "label": "",
+            "name": "icon_height_units",
+            "type": "select",
+            "instructions": "&nbsp;",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61d129a6d103b",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "px": "px",
+                "em": "em",
+                "rem": "rem"
+            },
+            "default_value": "em",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_61d137834e5fc",
+            "label": "Position to title",
+            "name": "icon_position",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61d129a6d103b",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "left": "Left of title",
+                "replace": "Replace title",
+                "right": "Right of title"
+            },
+            "allow_null": 0,
+            "default_value": "left",
+            "layout": "horizontal",
+            "return_format": "value"
         }
     ],
     "location": [
@@ -45,5 +136,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1641097950
+    "modified": 1641101328
 }
