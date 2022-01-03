@@ -9,3 +9,7 @@ Adds a setting to each menu item to set an SVG icon and control its size and ali
 * Icon
 * Icon height (including CSS units)
 * Alignment relative to the menu title (to the left of it, to the right of it, or replace it altogether)
+
+## Other plugins
+ * Requires [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/)
+ * Works well with [Safe SVG](https://wordpress.org/plugins/safe-svg/) (since SVG uploads must be allowed)
